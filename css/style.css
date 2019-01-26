@@ -1,0 +1,113 @@
+body {
+  overflow-x: hidden;
+}
+
+/* Navigation part */
+
+.navbar.nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid
+}
+
+#heading {
+  font-size: 18px;
+}
+
+.carousel-item {
+  height: 480px;
+}
+
+.carousel-image-1 {
+  background: url(../image/glozzom/image1.jpg);
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url(../image/glozzom/image2.jpg);
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url(../image/glozzom/image3.jpg);
+  background-size: cover;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url(../image/glozzom/lights.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url(../image/glozzom/media.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+/* About section */
+
+#page-header {
+  height: 200px;
+  background: url(../image/glozzom/image1.jpg);
+  background-position: 0 -360px;
+  color: #fff;
+  background-attachment: fixed;
+  border-bottom: 1px solid #eee;
+  padding-top: 50px;
+}
+
+#head h1 {
+  font-size: 20px;
+}
+
+.about-img {
+  margin-top: -50px;
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+#main-footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
